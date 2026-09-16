@@ -6,7 +6,12 @@ This is a movie prop. It is not a real bank and is not affiliated with any finan
 
 ## Phone / Vercel
 
-After deploy, open the production URL on the actor’s phone. Admin is at `/admin`.
+Open these on the actor’s phone (no local server needed):
+
+- Dashboard: https://film-bank-git-cursor-bank-acc-e13d1b-leswins5555-4908s-projects.vercel.app
+- Admin: https://film-bank-git-cursor-bank-acc-e13d1b-leswins5555-4908s-projects.vercel.app/admin
+
+On the hosted site, name/balance/logo save in that phone’s browser. Use admin on the same phone you will film.
 
 ## On set (local)
 
