@@ -1,0 +1,5 @@
+data/state.json
+.DS_Store
+*.pyc
+__pycache__/
+.vercel
