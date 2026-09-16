@@ -4,7 +4,11 @@ A sample bank account screen for filming. It follows the Axos-style mobile web d
 
 This is a movie prop. It is not a real bank and is not affiliated with any financial institution.
 
-## On set
+## Phone / Vercel
+
+After deploy, open the production URL on the actor’s phone. Admin is at `/admin`.
+
+## On set (local)
 
 From this folder:
 
