@@ -21,6 +21,9 @@
       }
     });
     document.querySelector("[name=totalAssets]").disabled = Boolean(state.syncAssetsToBalance);
+    if (state.syncAssetsToBalance) {
+      document.querySelector("[name=totalAssets]").value = state.balance;
+    }
     bankLogoPreview.src = state.bankLogo || "";
     accountLogoPreview.src = state.accountLogo || "";
     applying = false;
@@ -71,6 +74,13 @@
       if (input.name === "initials") input.dataset.manual = "1";
       if (input.name === "syncAssetsToBalance") {
         document.querySelector("[name=totalAssets]").disabled = input.checked;
+      }
+      if (
+        (input.name === "balance" || input.name === "syncAssetsToBalance") &&
+        document.querySelector("[name=syncAssetsToBalance]").checked
+      ) {
+        document.querySelector("[name=totalAssets]").value =
+          document.querySelector("[name=balance]").value;
       }
       queueSave();
     });

@@ -105,6 +105,7 @@ img {
 .app {
   width: 100%;
   max-width: 430px;
+  height: 100dvh;
   min-height: 100dvh;
   background: var(--white);
   position: relative;
@@ -320,9 +321,9 @@ body.show-chrome .chrome-bottom {
 }
 
 .hero {
-  background: var(--navy-hero) url("../assets/chevrons.svg") center / 220px auto repeat;
+  background: var(--navy-hero) url("../assets/chevrons.svg") -40px center / 180px auto repeat;
   color: #fff;
-  min-height: 168px;
+  min-height: 176px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -481,8 +482,8 @@ body.show-chrome .chrome-bottom {
 }
 
 .acct-x {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }
 
 .acct-copy {
